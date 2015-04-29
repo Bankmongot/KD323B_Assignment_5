@@ -31,4 +31,5 @@ public class ApiResponse {
 
     @SerializedName("tagline")
     public String tagline;
+
 }

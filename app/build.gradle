@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
+    compileSdkVersion 21
     buildToolsVersion "22.0.1"
 
     defaultConfig {
         applicationId "se.k3.antonochisak.kd323bassignment5"
-        minSdkVersion 17
+        minSdkVersion 16
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -33,5 +33,5 @@ dependencies {
     compile 'com.jakewharton:butterknife:5.1.2'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.firebase:firebase-client-android:2.2.3+'
-    compile "org.parceler:parceler:0.2.16"
+    compile 'org.parceler:parceler:0.2.16'
 }
